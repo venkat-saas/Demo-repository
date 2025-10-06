@@ -1,0 +1,111 @@
+/* BACKGROUND */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: rgb(200, 225, 228);
+  color: #333;
+  border: 1px solid black;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background-color: rgb(207, 229, 232);
+  color: #333;
+  padding: 30px 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+/* ABOUT CONTAINER */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  border: 1px dotted black;
+  gap: 30px;
+}
+.about-container img {
+  border-radius: 25px;
+}
+
+/* IMAGE */
+.image-box {
+  min-width: 280px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.image-box img:hover {
+  transform: scale(1.05);
+}
+
+/* DETAILS */
+.details {
+  flex: 2;
+  background: rgb(204, 227, 230);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.details h2 {
+  margin-top: 0;
+  color: #cc0066;
+}
+
+.details h3 {
+  margin-top: 20px;
+  color: #cc3366;
+}
+
+.details ul {
+  padding-left: 20px;
+}
+
+.details li {
+  margin-bottom: 8px;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #0d6efd;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.back-btn:hover {
+  background-color: antiquewhite;
+}
+footer {
+  background-color: rgb(188, 211, 214);
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(219, 240, 243);
+  color: #212529;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 18px;
+}

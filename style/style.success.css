@@ -1,0 +1,27 @@
+body {
+  background: rgb(217, 241, 246);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+.box {
+  background: powderblue;
+  padding: 30px;
+  border-radius: 12px;
+  display: inline-block;
+}
+h1 {
+  color: #cc0066;
+}
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ff6699;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+a:hover {
+  background: #e60073;
+}
